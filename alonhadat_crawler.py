@@ -69,7 +69,7 @@ def crawl_alonhadat():
         driver.quit()
 
 if __name__ == "__main__":
-    schedule.every().day.at("13:48").do(crawl_alonhadat)
+    schedule.every().day.at("06:00").do(crawl_alonhadat)
     print(" Đã lên lịch chạy lúc 6:00 sáng mỗi ngày.")
     #crawl_alonhadat()
     while True:
